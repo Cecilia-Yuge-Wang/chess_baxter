@@ -4,24 +4,34 @@
  
 Run the following commands on terminals:
 
-``bash
 Terminal 1:
+``bash
 roslaunch baxter_gazebo baxter_world.launch
+``
 
 Terminal 2:
+``bash
 rosrun baxter_tools enable_robot.py -e
 rosrun baxter_interface joint_trajectory_action_server.py
+``
 
 Terminal 3:
+``bash
 roslaunch baxter_moveit_config baxter_grippers.launch
+``
 
 Terminal 4:
+``bash
 rosrun chess_baxter spawn_chessboard.py
+``
 
 Terminal 5:
+``bash
 rosrun chess_baxter pick_and_plave_moveit.py
+``
 
 Terminal 6:
+``bash
 rosrun chess_baxter gazebo2tfframe.py
 ``
 
