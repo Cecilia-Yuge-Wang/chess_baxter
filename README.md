@@ -4,6 +4,7 @@
  
 Run the following commands on terminals:
 
+``bash
 Terminal 1:
 roslaunch baxter_gazebo baxter_world.launch
 
@@ -22,8 +23,11 @@ rosrun chess_baxter pick_and_plave_moveit.py
 
 Terminal 6:
 rosrun chess_baxter gazebo2tfframe.py
+``
 
 At last, to delete the game, run:
+``bash
 rosrun chess_baxter delete_chessgame.py
+``
 
 Demo: https://youtu.be/SP-X_PM4qQM
