@@ -11,7 +11,7 @@ roslaunch baxter_gazebo baxter_world.launch
 
 Terminal 2:
 ``bash
-rosrun baxter_tools enable_robot.py -e
+rosrun baxter_tools enable_robot.py -e /n
 rosrun baxter_interface joint_trajectory_action_server.py
 ``
 
